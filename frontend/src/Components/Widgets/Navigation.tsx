@@ -1,6 +1,6 @@
-import { NAV_LINKS } from "../Constants/constants";
+import { NAV_LINKS } from "../../Constants/constants";
 import { useState } from "react";
-import type { NavLink } from "../types";
+import type { NavLink } from "../../types/index";
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
