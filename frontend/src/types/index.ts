@@ -25,3 +25,25 @@ export type SocialLink = {
   href: string;
   icon: string; 
 };
+
+export interface DocumentationSection {
+  id: string;
+  title: string;
+  icon: string;
+  content: React.ReactNode;
+}
+
+export interface DocumentationCategory {
+  id: string;
+  title: string;
+  description: string;
+  sections: DocumentationSection[];
+}
+
+export interface SearchResult {
+  id: string;
+  title: string;
+  category: string;
+  content: string;
+  path: string;
+}
