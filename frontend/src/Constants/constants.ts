@@ -23,7 +23,7 @@ export const NAV_LINKS  = [
     { name: 'Contact', href: '#contact' },
   ],
   legal: [
-    { name: 'Privacy Policy', href: '#privacy' },
+    { name: 'Privacy Policy', href: '/privacy-policy' },
     { name: 'Terms of Service', href: '#terms' },
     { name: 'Security', href: '#security' },
     { name: 'Compliance', href: '#compliance' },
