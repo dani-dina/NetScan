@@ -17,7 +17,7 @@ const App = () => {
         <Route path='/dashboard' element={<Dashboard />} />
         <Route path='/register' element={<Register />} />
         <Route path='/privacy-policy' element={<PrivacyPolicy />} />
-        <Route path='/documentation' element={<DocumentationPage />} />
+        <Route path='/docs' element={<DocumentationPage />} />
       </Routes>
     </div>
   )
