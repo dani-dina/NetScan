@@ -3,3 +3,7 @@ export { default as GitHubIcon } from './GitHubIcon';
 export { default as LinkedInIcon } from './LinkedInIcon';
 export { default as DiscordIcon } from './DiscordIcon';
 export { default as NetscanLogoIcon } from './NetscanLogoIcon';
+export { default as IntroductionIcon } from './IntroductionIcon';
+export { default as InstallationIcon } from './InstallationIcon';
+export { default as RocketIcon } from './RocketIcon';
+export { default as ScanIcon } from './ScanIcon';

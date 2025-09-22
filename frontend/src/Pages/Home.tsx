@@ -5,7 +5,7 @@ import Hero from "../Components/Layouts/Hero";
 
 const Home = () => {
   return (
-    <div className="">
+    <div className="bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900">
       <Navigation />
       <Hero />
       <Landing />

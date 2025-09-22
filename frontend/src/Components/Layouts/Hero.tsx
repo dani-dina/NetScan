@@ -31,7 +31,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 text-white min-h-screen flex items-center py-16">
+    <section className=" text-white min-h-screen flex items-center py-16">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Column - Content */}
