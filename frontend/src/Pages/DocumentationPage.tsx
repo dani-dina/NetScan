@@ -3,6 +3,7 @@ import { DOCUMENTATION_CATEGORIES, SEARCH_PLACEHOLDER, DOCUMENTATION_TITLE, DOCU
 import type { DocumentationCategory } from '../types/index';
 import * as Icons from '../assets/svg/index';
 import { Search, BookOpen, ChevronDown, ChevronRight } from 'lucide-react';
+import Navigation from '../Components/Widgets/Navigation';
 
 const DocumentationPage: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -57,12 +58,10 @@ const DocumentationPage: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 to-blue-950">
+      <Navigation />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Header */}
         <div className="text-center mb-12">
-          <div className="inline-flex items-center justify-center w-16 h-16 bg-gray-500 rounded-full mb-6">
-            <BookOpen className="w-8 h-8 text-blue-600" />
-          </div>
           <h1 className="text-4xl font-bold text-gray-900 mb-4">{DOCUMENTATION_TITLE}</h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             {DOCUMENTATION_SUBTITLE}
