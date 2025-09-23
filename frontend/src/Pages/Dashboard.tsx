@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-// Type definitions
+// Types
 type Scan = {
   id: string;
   target: string;
