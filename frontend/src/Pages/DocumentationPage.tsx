@@ -62,7 +62,7 @@ const DocumentationPage: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">{DOCUMENTATION_TITLE}</h1>
+          <h1 className="text-4xl font-bold text-gray-100 mb-4">{DOCUMENTATION_TITLE}</h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             {DOCUMENTATION_SUBTITLE}
           </p>
@@ -71,7 +71,7 @@ const DocumentationPage: React.FC = () => {
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Sidebar */}
           <div className="lg:w-1/4">
-            <div className="bg-gray-700 rounded-lg shadow-sm p-6 sticky top-8">
+            <div className="bg-slate-800/30 rounded-lg shadow-sm p-6 sticky top-8">
               {/* Search */}
               <div className="relative mb-6">
                 <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
