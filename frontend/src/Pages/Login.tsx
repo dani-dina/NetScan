@@ -11,7 +11,7 @@ const Login = () => {
     e.preventDefault();
     setIsLoading(true);
     
-    // Simulate API call
+    //  API call
     setTimeout(() => {
       setIsLoading(false);
       console.log(isLogin ? 'Logged in' : 'Signed up', { email, password, rememberMe });
