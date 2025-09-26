@@ -107,7 +107,7 @@ const RegisterPage: React.FC = () => {
     } catch (error) {
       console.error('Registration error:', error);
       setErrors({ 
-        // submit: 'Registration failed. Please try again later.' 
+        // submit: 'Registration failed. Please try again later' 
       });
     } finally {
       setIsSubmitting(false);
