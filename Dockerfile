@@ -17,14 +17,12 @@ COPY . .
 # Build TypeScript to JavaScript
 RUN npm run build
 
-# Create uploads directory and set proper permissions
+
 RUN mkdir -p uploads && chown -R node:node uploads
 
-# Switch to non-root user for security
 USER node
 
-# Expose the port the app runs on
 EXPOSE 3000
 
-# Command to run the application
+
 CMD ["npm", "start"]
