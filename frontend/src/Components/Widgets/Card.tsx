@@ -1,1 +1,8 @@
 // card
+
+const Card = () => {
+  return (
+    <>
+    </>
+  )
+}
