@@ -139,6 +139,6 @@ export const DOCUMENTATION_CATEGORIES = [
   }
 ];
 
-export const SEARCH_PLACEHOLDER = 'Search documentation...';
+export const SEARCH_PLACEHOLDER = 'Search documentation';
 export const DOCUMENTATION_TITLE = 'Netscan Documentation';
 export const DOCUMENTATION_SUBTITLE = 'Everything you need to know about using Netscan';
